@@ -53,7 +53,7 @@ def marcarTarea():
     # Examina cual coincide con el Id dado por el usuario
     for t in tareas:
         if t[0] == tid:
-            t[2] = True # Si alguna coincide lo marca como verdadero
+            t[2] ==  True # Si alguna coincide lo marca como verdadero
             print("Tarea realizada.")
             return
     # De lo contrario si no coincide no se puede realizar
@@ -95,5 +95,6 @@ while True:
         eliminar()
     elif op == "5":
         print("Hasta la proxima")
+        break
     else:
         print("")
